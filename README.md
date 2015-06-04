@@ -1,5 +1,5 @@
 # amqpsender
-Command line for easily send messages to RabbitMQ
+Command line to easily send messages to RabbitMQ
 
 ## Installation
 
