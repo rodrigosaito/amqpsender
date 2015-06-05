@@ -9,6 +9,7 @@ packages:
 	fpm -f -a amd64 -p build/linux_amd64/  -s dir -t deb -n $(PACKAGE) --description $(DESCRIPTION) -v $(VERSION) ./build/linux_amd64/amqpsender=/usr/bin/amqpsender
 	fpm -f -a i386 -p build/linux_386/  -s dir -t deb -n $(PACKAGE) --description $(DESCRIPTION) -v $(VERSION) ./build/linux_386/amqpsender=/usr/bin/amqpsender
 	fpm -f -a x86_64 -p build/linux_amd64/  -s dir -t rpm -n $(PACKAGE) --description $(DESCRIPTION) -v $(VERSION) ./build/linux_amd64/amqpsender=/usr/bin/amqpsender
+	fpm -f -a i386 -p build/linux_386/  -s dir -t rpm -n $(PACKAGE) --description $(DESCRIPTION) -v $(VERSION) ./build/linux_386/amqpsender=/usr/bin/amqpsender
 
 packagecloud:
 	package_cloud push rodrigosaito/pkgs/ubuntu/trusty ./build/linux_amd64/*.deb
