@@ -9,6 +9,14 @@ Command line to easily send messages to RabbitMQ
 $ go get -u github.com/rodrigosaito/amqpsender
 ```
 
+### Download binary
+
+Download binary and uncompress tar.gz file:
+
+* [MacOSX](https://github.com/rodrigosaito/amqpsender/releases/download/v0.0.3/darwin_amd64.tar.gz)
+* [Linux 32 bits](https://github.com/rodrigosaito/amqpsender/releases/download/v0.0.3/linux_386.tar.gz)
+* [Linux 64 bits](https://github.com/rodrigosaito/amqpsender/releases/download/v0.0.3/linux_amd64.tar.gz)
+
 ### Package Managers (Ubuntu 14.04, CentOS 7)
 
 Add my package cloud repository:
