@@ -3,10 +3,32 @@ Command line for easily send messages to RabbitMQ
 
 ## Installation
 
-To install from the latest source:
+### Latest source
 
 ```
 $ go get -u github.com/rodrigosaito/amqpsender
+```
+
+### Package Managers (Ubuntu 14.04, CentOS 7)
+
+Add my package cloud repository:
+
+```
+$ curl -s https://packagecloud.io/install/repositories/rodrigosaito/pkgs/script.rpm.sh | sudo bash
+```
+
+Then install the ```amqpsender``` package.
+
+**Ubuntu 14.04 LTS:**
+
+```
+$ sudo apt-get install amqpsender
+```
+
+**CentOS 7:**
+
+```
+$ yum install amqpsender
 ```
 
 ## Usage
